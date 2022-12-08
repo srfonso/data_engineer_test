@@ -1,0 +1,9 @@
+{
+    "bearspace_spider" : {
+        "allowed_domains": ["www.bearspace.co.uk"],
+        "start_urls": ["https://www.bearspace.co.uk/purchase?page=3000"],
+        "title_xpath": "//*[@data-hook='product-title']/text()",
+        "description_xpath" : "//*[@data-hook='description']//text()",
+        "price_xpath" : "//*[@data-hook='formatted-primary-price']//text()"
+    }
+}
